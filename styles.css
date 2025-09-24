@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Gentle";
+    src: url("Fonts/Gentle.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+.homeContainer_One{
+    width: 100%;
+    min-height: 30vh;
+    background-color: #334eac;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    font-family: "Gentle";
+    color: #ffff;
+}

@@ -6,19 +6,53 @@
 @font-face {
     font-family: "Gentle";
     src: url("Fonts/Gentle.otf") format("opentype");
-    font-weight: bold;
+    font-weight: normal;
+    font-style: normal;
+    font-family: "Roboto";
+    src: url("Fonts/Roboto.ttf") format("truetype");
+    font-weight: 450;
     font-style: normal;
 }
 .homeContainer_One{
     width: 100%;
-    min-height: 30vh;
+    min-height: 100vh;
     background-color: #334eac;
     padding: 10px;
 }
+.top-bar{
+    display: flex;
+    align-items:center;
+    position: relative;
+}
 .logo{
-    font-size: 30px;
-    padding: 10px;
+    flex: 0 0 auto;
+    font-size: 40px;
     padding-left: 40px;
-    font-family: "Gentle";
+    font-family: "Gentle", sans-serif;
     color: #ffff;
+    align-self: center;
+}
+.header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.top-buttons{
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    border: 0;
+}
+.create-button{
+    background-color: #ffff;
+    padding: 5px 15px;
+    font-family: "Roboto";
+    color: #334eac;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
 }
